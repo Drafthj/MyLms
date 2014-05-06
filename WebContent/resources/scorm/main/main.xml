@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<quizz>
+<libelle>Quizz</libelle>
+<path>A1_chap1_quizz</path>
+</quizz>
+<avatar>
+<path>A1_chap_1_avatar</path>
+</avatar>
+<popup>
+<path>A1_chap1_activite1_s1_popup</path>
+</popup>
+<activite>
+	<libelle>Les premiers fondements</libelle>
+	<sous_activite>
+		<libelle>Grèce – antiquité</libelle>
+		<path>A1_chap1_activite1_s1</path>
+	</sous_activite>
+	<sous_activite>
+		<libelle>L’Empire romain</libelle>
+		<path>A1_chap1_activite1_s2</path>
+	</sous_activite>
+	<sous_activite>
+		<libelle>Fin du Moyen Age</libelle>
+		<path>A1_chap1_contenu04</path>
+	</sous_activite>
+</activite>
+<activite>
+	<libelle>Les penseurs et philosophes des Lumières</libelle>
+	<sous_activite>
+		<libelle><![CDATA[Du 16ème au 18ème siècle&nbsp;: le règlement des conflits et la paix sur le continent]]></libelle>
+		<path>A1_chap1_contenu05</path>
+	</sous_activite>
+</activite>
+<activite>
+	<libelle>Les avancées du 19ème siècle</libelle>
+	<path>A1_chap1_contenu06</path>
+</activite>
+<activite>
+	<libelle>L'idée européenne dans la première moitié du 20ème siècle</libelle>
+	<path>A1_chap1_contenu07</path>
+</activite>
+</root>

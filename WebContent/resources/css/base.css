@@ -1,0 +1,46 @@
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+a{
+	color: #666666;
+	text-decoration: none;
+}
+a:hover{
+	color: #CE1221;
+	text-decoration: none;
+}
+a:focus{
+	text-decoration: none;
+}
+.typocn{
+	color: #555555;
+	font:500 14px/1.8 'Hiragino Sans GB',Microsoft YaHei,sans-serif;
+}
+.typocn{
+	text-decoration: none;
+}
+.clearpadding{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.b{
+	font-weight: bold;
+}
+.hei7{
+	color: #777777;
+}
+.my_task_num {
+    color: #B94A48;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 4px;
+}
+.cls{
+	 clear: both;
+    font-size: 0 !important;
+    height: 0 !important;
+    line-height: 0 !important;
+}

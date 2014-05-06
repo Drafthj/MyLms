@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<titre>Les avancées du 19ème siècle</titre>
+<texte num="1">Tout voir</texte>
+<texte num="2"><![CDATA[<b>Cliquez sur les dates pour faire apparaitre les évênements</b>]]></texte>
+<frise>
+<evenement num="1">
+	<date><![CDATA[1814]]></date>
+	<titre><![CDATA[<font color="#4DA8BA"><b>Henri de Saint-Simon</b></font> (1760-1825)<br/>philosophe français ]]></titre>
+	<texte><![CDATA[<font color="#F39404"><b>En 1814</b></font>, le philosophe français <font color="#4DA8BA"><b>Henri de Saint-Simon</b></font> propose la création d'un<br/>Parlement européen de 240 membres. Il considêre en effet que :<br/>« l'Europe aurait la meilleure organisation possible si toutes les nations qu'elle<br/>renferme, étant gouvernées chacune par un parlement, reconnaissaient la suprématie<br/>d'un parlement général placé au-dessus de tous les gouvernements nationaux et<br/>investi du pouvoir de juger leurs différends ». ]]></texte>
+</evenement>
+<evenement num="2">
+	<date><![CDATA[1815]]></date>
+	<titre><![CDATA[<font color="#4DA8BA"><b>Congrês de Vienne</b></font> (1815)]]></titre>
+	<texte><![CDATA[Avec le <font color="#4DA8BA"><b>Congrês de Vienne</b></font> de <font color="#F39404"><b>1815</b></font>, une nouvelle forme de coopération entre Etats<br/>se développe <font color="#F39404"><b>jusqu'en 1914</b></font> : les Etats européens se réuniront réguliêrement pour<br/>traiter notamment de la guerre et du commerce.]]></texte>
+</evenement>
+<evenement num="3">
+	<date><![CDATA[1849]]></date>
+	<titre><![CDATA[<font color="#4DA8BA"><b> Victor Hugo</b></font> (1802-1885)<br/>écrivain, dramaturge, poête, homme politique et académicien français]]></titre>
+	<texte><![CDATA[En <font color="#F39404"><b>1849</b></font>, <font color="#4DA8BA"><b>Victor Hugo</b></font> rédige son discours sur les Etats-Unis d'Europe. Inspiré par la<br/>vague de révolutions des peuples qui se diffuse dans toute l'Europe <font color="#F39404"><b>depuis 1848</b></font><br/>(Allemagne, Autriche, France, Hongrie, Italie), il voit dans « le réveil des nations » la<br/>promesse d'une unification européenne. Lors du <font color="#4DA8BA"><b>Congrês de la Paix</b></font>, qui se tient à <br/>Paris en <font color="#F39404"><b>1849</b></font>, il déclare :<br/><br/>« Un jour viendra oû vous France, vous Russie, vous Italie, vous Angleterre, vous<br/>Allemagne, vous toutes, nations du continent, sans perdre vos qualités distinctes<br/>et votre glorieuse individualité, vous vous fondrez étroitement dans une unité<br/>supérieure, et vous constituerez la fraternité européenne. […] Un jour viendra oû il<br/>n'y aura plus d'autres champs de bataille que les marchés s'ouvrant au commerce<br/>et les esprits s'ouvrant aux idées ».]]></texte>
+</evenement>
+</frise>
+</root>

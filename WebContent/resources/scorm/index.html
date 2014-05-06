@@ -1,0 +1,110 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>start</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<style type="text/css" media="screen">
+		html, body { height:100%; background-color: #ffffff;}
+		body { margin:0; padding:0; overflow:hidden; }
+		#flashContent { width:100%; height:100%; }
+		</style>
+<script type="text/javascript" src="APIWrapper.js"></script>
+<script type="text/javascript" src="swfobject.js"></script>
+<script language="JavaScript" type="text/javascript">
+var g_dtmInitialized = new Date(); // seront ajustées aprés l'initialisation
+
+function doLMSTestStatus() {
+	// On test la status suit bug complete par défaut.
+	var LMS_COMPSTATUS = doLMSGetValue("cmi.core.lesson_status");
+	if ((LMS_COMPSTATUS != "passed")&&(LMS_COMPSTATUS != "failed")&&(LMS_COMPSTATUS != "completed")&&(LMS_COMPSTATUS != "browsed"))
+	{	
+		doLMSSetValue("cmi.core.lesson_status", "incomplete");
+		doLMSCommit();
+	}
+}
+
+function doLMSInitTest() {
+
+	var test_lms_init_status = doLMSInitialize(); 
+	if (test_lms_init_status == "true") // Si la communication avec le LMS est toujours ouverte
+		{
+			doLMSTestStatus();
+			}
+	else
+		{	
+			doLMSInitialize();
+			doLMSTestStatus();
+			}
+}
+
+function MillisecondsToCMIDuration(n) {
+//Convertir les délais exprimés en millisecondes au format 0000:00:00.00
+	var hms = "";
+	var dtm = new Date();	dtm.setTime(n);
+	var h = "000" + Math.floor(n / 3600000);
+	var m = "0" + dtm.getMinutes();
+	var s = "0" + dtm.getSeconds();
+	var cs = "0" + Math.round(dtm.getMilliseconds() / 10);
+	hms = h.substr(h.length-4)+":"+m.substr(m.length-2)+":";
+	hms += s.substr(s.length-2)+"."+cs.substr(cs.length-2);
+	return hms
+}
+
+// Fonction pour rapporté le temps passé dans cmi.core.session_time
+function SCOReportSessionTime() {
+	var dtm = new Date();
+	var n = dtm.getTime() - g_dtmInitialized.getTime();
+	return doLMSSetValue("cmi.core.session_time",MillisecondsToCMIDuration(n))
+}
+
+ //Test de l'init scorm en cas de fermeture de la fenetre
+function doCleanClosingLMS() {
+	var test_lms_init_status = doLMSInitialize(); 
+	if (test_lms_init_status == "true") // Si la communication avec le LMS est toujours ouverte
+   {
+	  SCOReportSessionTime(); //On rapporte le temps passé
+	  doLMSCommit();	// On commit les données
+      doLMSFinish();	// On ferme la communication avec le LMS
+   }
+}
+
+</script>
+</head>
+<body bgcolor="#6C738F" onLoad="doLMSInitTest();" onUnload="doCleanClosingLMS();" onbeforeunload="doCleanClosingLMS();" >
+<div id="flashContent">
+			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="1024" height="768" id="start" align="middle">
+				<param name="movie" value="start.swf?SCORM=1" />
+				<param name="quality" value="high" />
+				<param name="bgcolor" value="#ffffff" />
+				<param name="play" value="true" />
+				<param name="loop" value="true" />
+				<param name="wmode" value="window" />
+				<param name="scale" value="showall" />
+				<param name="menu" value="true" />
+				<param name="devicefont" value="false" />
+				<param name="salign" value="" />
+				<param name="allowScriptAccess" value="sameDomain" />
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="start.swf?SCORM=1" width="1024" height="768">
+					<param name="movie" value="start.swf" />
+					<param name="quality" value="high" />
+					<param name="bgcolor" value="#ffffff" />
+					<param name="play" value="true" />
+					<param name="loop" value="true" />
+					<param name="wmode" value="window" />
+					<param name="scale" value="showall" />
+					<param name="menu" value="true" />
+					<param name="devicefont" value="false" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="sameDomain" />
+				<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflash">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obtenir Adobe Flash Player" />
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+		</div>
+</body>
+</html>

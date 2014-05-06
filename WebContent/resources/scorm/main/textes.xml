@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<num_bloc><![CDATA[<b>1</b>]]></num_bloc>
+<titre> Histoire et civilisation</titre>
+<sous_titre><![CDATA[<b>1 . L'Europe jusqu'en 1945</b>]]></sous_titre>
+<texte num="1"><![CDATA[<b>L'EUROPE</b>]]></texte>
+<texte num="2"><![CDATA[<b>UNICITE DES VALEURS DIVERSITE CULTURELLE</b>]]></texte>
+<texte num="3"><![CDATA[<b>Accueil</b>]]></texte>
+<texte num="4"><![CDATA[<b>Ressources PDF</b>]]></texte>
+<texte num="5"><![CDATA[<b>Liens</b>]]></texte>
+
+<texte num="6"><![CDATA[<b>Bibliographie</b>]]></texte>
+<texte num="7"><![CDATA[<b>Aide</b>]]></texte>
+<texte num="8"><![CDATA[<b>Copyright</b>]]></texte>
+
+<texte num="9"><![CDATA[<b>Son OFF</b>]]></texte>
+<texte num="10"><![CDATA[<b>Son ON</b>]]></texte>
+
+<texte num="11"><![CDATA[<b>Quitter</b>]]></texte>
+
+
+<texte num="12"><![CDATA[<b>Fermer</b>]]></texte>
+</root>

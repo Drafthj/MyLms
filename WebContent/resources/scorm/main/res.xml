@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<titre>Ressources PDF</titre>
+<ressource nom="RESSOURCES COURS">
+	<element>
+		<texte><![CDATA[Les premiers fondements]]></texte>
+		<url>http://www.feduca-online.com/pdf/A/PDF_A1-1_1_fondements.pdf</url>
+	</element>
+	<element>
+		<texte><![CDATA[Les penseurs et philosophes des Lumières]]></texte>
+		<url>http://www.feduca-online.com/pdf/A/PDF_A1-1_2_lumieres.pdf</url>
+	</element>
+	<element>
+		<texte><![CDATA[Les avancées du 19ème siècle]]></texte>
+		<url>http://www.feduca-online.com/pdf/A/PDF_A1-1_3_avancees.pdf</url>
+	</element>
+	<element>
+		<texte><![CDATA[L'idée européenne dans la première moitié du 20ème siècle]]></texte>
+		<url>http://www.feduca-online.com/pdf/A/PDF_A1-1_4_idee.pdf</url>
+	</element>
+</ressource>
+</root>

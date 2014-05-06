@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<titre>Aide</titre>
+<consigne><![CDATA[<b>Cliquez sur les puces pour afficher le contenu.</b>]]></consigne>
+<puce num="1"><![CDATA[Cliquez ici pour ouvrir et fermer le menu.]]></puce>
+<puce num="2"><![CDATA[La flèche indique que cette activité a déjà été réalisée.]]></puce>
+<puce num="3"><![CDATA[Cette activité ou cette séquence n’ont pas encore été réalisées.]]></puce>
+<puce num="4"><![CDATA[Le picto indique que cette séquence a déjà été réalisée.]]></puce>
+<puce num="5"><![CDATA[Testez vos connaissances.]]></puce>
+<puce num="6"><![CDATA[Revenir à l’accueil.]]></puce>
+<puce num="7"><![CDATA[Accès aux ressources PDF du module (cours) et autres.]]></puce>
+<puce num="8"><![CDATA[Accès aux liens.]]></puce>
+<puce num="9"><![CDATA[Accès à la bibliographie repérage à partir des ouvrages FEDE.]]></puce>
+<puce num="10"><![CDATA[Information sur le Copyright.]]></puce>
+<puce num="11"><![CDATA[Activer ou désactiver le son.]]></puce>
+<puce num="12"><![CDATA[Toujours quitter le module, en cliquant sur ce bouton.]]></puce>
+<puce num="13"><![CDATA[Avancer et reculer dans le module.]]></puce>
+<puce num="14"><![CDATA[Cliquez sur le bouton pour activer le popup.]]></puce>
+</root>

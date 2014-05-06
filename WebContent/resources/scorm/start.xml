@@ -1,0 +1,10 @@
+﻿<?xml version=’1.0’ encoding=”utf-8” ?>
+<root>
+<texte num="1"><![CDATA[<b>Souhaitez-vous</b> reprendre le module au dernier écran consulté ?]]></texte>
+<texte num="2"><![CDATA[<b>Oui</b>]]></texte>
+<texte num="3"><![CDATA[<b>Non</b>]]></texte>
+<texte num="4"><![CDATA[<b>Souhaitez-vous</b> quitter le module ?]]></texte>
+<texte num="5"><![CDATA[<b>Oui</b>]]></texte>
+<texte num="6"><![CDATA[<b>Non</b>]]></texte>
+<texte num="7"><![CDATA[<b>Vous pouvez désormais fermer votre navigateur.</b>]]></texte>
+</root>

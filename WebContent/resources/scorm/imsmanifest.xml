@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is a Reload version 2.5.5 SCORM 1.2 Content Package document-->
+<!--Spawned from the Reload Content Package Generator - http://www.reload.ac.uk-->
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="MANIFEST-D05957A33AE0388B5DE690781B4721EB" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <organizations default="ORG-43667C0698BA41B0552C8BCC01EAC567">
+    <organization identifier="ORG-43667C0698BA41B0552C8BCC01EAC567" structure="hierarchical">
+      <title>Histoire et cilivisation</title>
+      <item identifier="ITEM-5FC2710C3C7EE4C77B9DAA618A8C346E" identifierref="RES-2D8EE5248613838A27D9972666C7FEB6" isvisible="true">
+        <title>1. L'europe jusqu'en 1945</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-06CDCB77CD6878FF185D457DDEC938CB" type="webcontent" href="A1_chap1_activite1_s1/A1_chap1_activite1_s1.swf" adlcp:scormtype="asset">
+      <file href="A1_chap1_activite1_s1/A1_chap1_activite1_s1.swf" />
+    </resource>
+    <resource identifier="RES-23695F5E59DE483B613F296D4EA9F802" type="webcontent" href="A1_chap1_activite1_s1/A1_chap1_activite1_s1.xml" adlcp:scormtype="asset">
+      <file href="A1_chap1_activite1_s1/A1_chap1_activite1_s1.xml" />
+    </resource>
+    <resource identifier="RES-B296921BA824690C3E5A3CFB70D6ADFD" type="webcontent" href="A1_chap1_activite1_s1_popup/A1_chap1_activite1_s1_popup.swf" adlcp:scormtype="asset">
+      <file href="A1_chap1_activite1_s1_popup/A1_chap1_activite1_s1_popup.swf" />
+    </resource>
+    <resource identifier="RES-25E750E8B439050C2949A5A3638DD1FA" type="webcontent" href="A1_chap1_activite1_s1_popup/Thumbs.db" adlcp:scormtype="asset">
+      <file href="A1_chap1_activite1_s1_popup/Thumbs.db" />
+    </resource>
+    <resource identifier="RES-8EAB29073B504D9927D1A67A9020308B" type="webcontent" href="A1_chap1_activite1_s2/A1_chap1_activite1_s2.swf" adlcp:scormtype="asset">
+      <file href="A1_chap1_activite1_s2/A1_chap1_activite1_s2.swf" />
+    </resource>
+    <resource identifier="RES-42824A2E40D1E514B603E9F7F716DFD6" type="webcontent" href="A1_chap1_activite1_s2/A1_chap1_activite1_s2.xml" adlcp:scormtype="asset">
+      <file href="A1_chap1_activite1_s2/A1_chap1_activite1_s2.xml" />
+    </resource>
+    <resource identifier="RES-22EF13F647EBF9A0EB1E7C1EA52A85D2" type="webcontent" href="A1_chap1_contenu04/A1_chap1_contenu04.swf" adlcp:scormtype="asset">
+      <file href="A1_chap1_contenu04/A1_chap1_contenu04.swf" />
+    </resource>
+    <resource identifier="RES-ED894F3B4CE3E5FD1EE88AC4BC148C7C" type="webcontent" href="A1_chap1_contenu04/A1_chap1_contenu04.xml" adlcp:scormtype="asset">
+      <file href="A1_chap1_contenu04/A1_chap1_contenu04.xml" />
+    </resource>
+    <resource identifier="RES-8A2DBDDDB75F935C41CB057422353765" type="webcontent" href="A1_chap1_contenu04/Thumbs.db" adlcp:scormtype="asset">
+      <file href="A1_chap1_contenu04/Thumbs.db" />
+    </resource>
+    <resource identifier="RES-5BBF2916CB3986E55BB08B4681E98E46" type="webcontent" href="A1_chap1_contenu05/A1_chap1_contenu05.swf" adlcp:scormtype="asset">
+      <file href="A1_chap1_contenu05/A1_chap1_contenu05.swf" />
+    </resource>
+    <resource identifier="RES-A1D07AB727AFE2C5105F72D90EB481B4" type="webcontent" href="A1_chap1_contenu05/A1_chap1_contenu05.xml" adlcp:scormtype="asset">
+      <file href="A1_chap1_contenu05/A1_chap1_contenu05.xml" />
+    </resource>
+    <resource identifier="RES-A1DC7741124E812D53423A87539272EF" type="webcontent" href="A1_chap1_contenu05/Thumbs.db" adlcp:scormtype="asset">
+      <file href="A1_chap1_contenu05/Thumbs.db" />
+    </resource>
+    <resource identifier="RES-73FF17A409E883F328780562023CF17F" type="webcontent" href="A1_chap1_contenu06/A1_chap1_contenu06.swf" adlcp:scormtype="asset">
+      <file href="A1_chap1_contenu06/A1_chap1_contenu06.swf" />
+    </resource>
+    <resource identifier="RES-84694C1010C18CBC7A7DE18B1D49CF35" type="webcontent" href="A1_chap1_contenu06/A1_chap1_contenu06.xml" adlcp:scormtype="asset">
+      <file href="A1_chap1_contenu06/A1_chap1_contenu06.xml" />
+    </resource>
+    <resource identifier="RES-D530375A27FCDC7C88352F74FE65FC22" type="webcontent" href="A1_chap1_contenu07/A1_chap1_contenu07.swf" adlcp:scormtype="asset">
+      <file href="A1_chap1_contenu07/A1_chap1_contenu07.swf" />
+    </resource>
+    <resource identifier="RES-3E9DCA2C857F3EF1663B211DAC41B53C" type="webcontent" href="A1_chap1_contenu07/A1_chap1_contenu07.xml" adlcp:scormtype="asset">
+      <file href="A1_chap1_contenu07/A1_chap1_contenu07.xml" />
+    </resource>
+    <resource identifier="RES-9F99FC25F967E7EF0A8C551ACDB9F1F7" type="webcontent" href="A1_chap1_quizz/A1_chap1_quizz.swf" adlcp:scormtype="asset">
+      <file href="A1_chap1_quizz/A1_chap1_quizz.swf" />
+    </resource>
+    <resource identifier="RES-ABCE092DFC1370F22E92C001ABBD0E39" type="webcontent" href="A1_chap1_quizz/A1_chap1_quizz.xml" adlcp:scormtype="asset">
+      <file href="A1_chap1_quizz/A1_chap1_quizz.xml" />
+    </resource>
+    <resource identifier="RES-662AE05D6DF78645A3CA5727B37037CD" type="webcontent" href="A1_chap_1_avatar/A1_chap_1_avatar.swf" adlcp:scormtype="asset">
+      <file href="A1_chap_1_avatar/A1_chap_1_avatar.swf" />
+    </resource>
+    <resource identifier="RES-A2374B84288C9FB98B847F25B3542F04" type="webcontent" href="A1_chap_1_avatar/A1_chap_1_avatar.xml" adlcp:scormtype="asset">
+      <file href="A1_chap_1_avatar/A1_chap_1_avatar.xml" />
+    </resource>
+    <resource identifier="RES-35EF91082A2E636CF01F713D7A86A03D" type="webcontent" href="load/load.swf" adlcp:scormtype="asset">
+      <file href="load/load.swf" />
+    </resource>
+    <resource identifier="RES-D7C022F33761DB0482DE888126F2A0C6" type="webcontent" href="load/load.xml" adlcp:scormtype="asset">
+      <file href="load/load.xml" />
+    </resource>
+    <resource identifier="RES-25E252FDEF533DFBCEC91E36A0A31377" type="webcontent" href="main/aide.xml" adlcp:scormtype="asset">
+      <file href="main/aide.xml" />
+    </resource>
+    <resource identifier="RES-F124464908E3152CE47DE4DB95E81026" type="webcontent" href="main/biblio.xml" adlcp:scormtype="asset">
+      <file href="main/biblio.xml" />
+    </resource>
+    <resource identifier="RES-2A71407EBC6D0C6DE675C4DC7B7A36D9" type="webcontent" href="main/copyright.xml" adlcp:scormtype="asset">
+      <file href="main/copyright.xml" />
+    </resource>
+    <resource identifier="RES-0F5082AE0122FE61081438423919BC3A" type="webcontent" href="main/liens.xml" adlcp:scormtype="asset">
+      <file href="main/liens.xml" />
+    </resource>
+    <resource identifier="RES-122385F62D3BB6532653C2D93D6E0266" type="webcontent" href="main/main.swf" adlcp:scormtype="asset">
+      <file href="main/main.swf" />
+    </resource>
+    <resource identifier="RES-2B6FD90A79E905C1EFB8E4D20635C25E" type="webcontent" href="main/main.xml" adlcp:scormtype="asset">
+      <file href="main/main.xml" />
+    </resource>
+    <resource identifier="RES-35A4E4F94FD67924E9BFB8A1E78FB59A" type="webcontent" href="main/res.xml" adlcp:scormtype="asset">
+      <file href="main/res.xml" />
+    </resource>
+    <resource identifier="RES-A2F291D247DAC69467AACF8707A4D192" type="webcontent" href="main/textes.xml" adlcp:scormtype="asset">
+      <file href="main/textes.xml" />
+    </resource>
+    <resource identifier="RES-6C4EF9579FA970871058AC0D9BD7F007" type="webcontent" href="lib.swc" adlcp:scormtype="asset">
+      <file href="lib.swc" />
+    </resource>
+    <resource identifier="RES-623A84AD759CDBCC00E6A7F59C3EC651" type="webcontent" href="lib.swf" adlcp:scormtype="asset">
+      <file href="lib.swf" />
+    </resource>
+    <resource identifier="RES-699E65D6E715C4644160EB8ACFA474A1" type="webcontent" href="police.swc" adlcp:scormtype="asset">
+      <file href="police.swc" />
+    </resource>
+    <resource identifier="RES-2745DBAB2215FFDF6FD8FB6BE1834188" type="webcontent" href="police.swf" adlcp:scormtype="asset">
+      <file href="police.swf" />
+    </resource>
+    <resource identifier="RES-943FC191DCBC8B15A8F81B72D7D21147" type="webcontent" href="start.swf" adlcp:scormtype="asset">
+      <file href="start.swf" />
+    </resource>
+    <resource identifier="RES-DA0EDA0B59AF3133782AB0220FD041E5" type="webcontent" href="start.xml" adlcp:scormtype="asset">
+      <file href="start.xml" />
+    </resource>
+    <resource identifier="RES-2D8EE5248613838A27D9972666C7FEB6" type="webcontent" href="index.html" adlcp:scormtype="sco">
+      <file href="index.html" />
+      <file href="APIWrapper.js" />
+      <file href="swfobject.js" />
+    </resource>
+  </resources>
+</manifest>
+

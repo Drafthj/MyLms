@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<titre>Liens</titre>
+<texte num="1">VIDEO</texte>
+<texte num="2">INFORMATION</texte>
+<texte num="3">LIEN</texte>
+<texte num="4">PDF</texte>
+<lien>
+	<element>
+		<texte><![CDATA[L’Europe ne s’est pas faite en 1 jour]]></texte>
+		<url>http://www.ideesnouvelles.com/INE/osons_2_films/tous_aux_urnes_2009.html#videos </url>
+	</element>
+	<element>
+		<texte><![CDATA[Site Toute l’Europe, frise historique]]></texte>
+		<url>http://www.touteleurope.fr/fr/union-europeenne/ue-au-fil-du-temps/histoire-union-europeenne/frise-chronologique-multimedia.html</url>
+	</element>
+</lien>
+
+</root>

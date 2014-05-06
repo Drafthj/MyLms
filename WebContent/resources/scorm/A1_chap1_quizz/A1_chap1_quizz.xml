@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<titre>QUIZ</titre>
+<chapeau>Question</chapeau>
+<max_question>3</max_question>
+<texte_suivant>Question Suivante</texte_suivant>
+<texte_analyse valmax="49"><![CDATA[Vous pouvez faire mieux ! Je vous propose de reprendre les différents parcours et de refaire pas à pas chaque étape afin d’étudier davantage. ]]></texte_analyse>
+<texte_analyse valmax="70"><![CDATA[Pas mal ! Encore un effort  et vous obtiendrez le score maximum ; Pour cela je vous propose d’étudier les étapes que vous ne maîtrisez pas tout à fait. ]]></texte_analyse>
+<texte_analyse valmax="100"><![CDATA[Bravo ! Vous avez acquis de nombreuses connaissances !]]></texte_analyse>
+<texte_score><![CDATA[Vous avez obtenu le score de]]></texte_score>
+<texte_resultat_single><![CDATA[XXX bonne réponse sur YYY]]></texte_resultat_single>
+<texte_resultat_multiple><![CDATA[XXX bonnes réponses sur YYY]]></texte_resultat_multiple>
+<texte_fin_question><![CDATA[Mon résultat]]></texte_fin_question>
+<texte_rejouer><![CDATA[Rejouer]]></texte_rejouer>
+<texte_valider><![CDATA[Valider]]></texte_valider>
+<texte_quitter><![CDATA[Quitter]]></texte_quitter>
+<quiz>
+	<question num="1">
+		<texte><![CDATA[Quel est l’homme politique qui, lors d’une conférence à Zurich en 1946, a proposé la création des<br/> « Etats-Unis d’Europe » ?]]></texte>
+		<item value="0"><![CDATA[<br /><br />Aristide Briand]]></item>
+		<item value="0"><![CDATA[<br /><br />Comte Coudenhove-Kalergi]]></item>
+		<item value="1"><![CDATA[<br /><br />Winston Churchill]]></item>
+		<item value="0"><![CDATA[<br /><br />Robert Schuman]]></item>
+	</question>
+	<question num="2">
+		<texte><![CDATA[Le mythe de l’Europe apparaît  :]]></texte>
+		<item value="1"><![CDATA[<br /><br />chez les Grecs]]></item>
+		<item value="0"><![CDATA[<br /><br />chez les Romains]]></item>
+		<item value="0"><![CDATA[<br /><br />au Moyen Age]]></item>
+		<item value="0"><![CDATA[<br /><br />à la Renaissance]]></item>
+	</question>
+	<question num="3">
+		<texte><![CDATA[L’idée d’une unification politique des pays du continent européen apparaît très tôt dans l’histoire européenne.]]></texte>
+		<item value="1"><![CDATA[<br /><br />Vrai]]></item>
+		<item value="0"><![CDATA[<br /><br />Faux]]></item>
+	</question>
+</quiz>
+</root>

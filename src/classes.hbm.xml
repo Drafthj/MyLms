@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+  <hibernate-mapping>
+  	<class name="com.draft.lms.domain.User" table="lms_user" >
+  		<id name="id" column="user_id" type="int"></id>
+  		<property name="username" column="user_name"></property>
+  		<property name="password" column="pass_word"></property>
+  		<property name="ctime" column="ctime"></property>
+  	</class>
+  	<class name="com.draft.lms.domain.CourseViewData" table="lms_course_rel_class">
+  	<composite-id>
+  		<key-property name="userid" column="user_id" type="int"></key-property>
+  		<key-property name="courseid" column="course_id" type="int"></key-property>
+  	</composite-id>
+  	<property name="sessiontime" column="session_time"></property>
+  	<property name="totaltime" column="total_time"></property>
+  	<property name="location" column="location"></property>
+  	<property name="status" column="status"></property>
+  	<property name="score" column="score" type="int"></property>
+  	<property name="suspenddata" column="suspenddata" ></property>
+  	<property name="progress" column="progress"></property>
+  	</class>
+  </hibernate-mapping>
